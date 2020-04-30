@@ -1,3 +1,7 @@
+Berkaitan Projek
+===============
+Imbuhan Python adalah fork dari har07/PySastrawi bagi tujuan pengemaskinian data / kata dasar dalam bahasa Melayu
+
 Imbuhan Python
 ===============
 
