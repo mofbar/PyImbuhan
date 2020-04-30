@@ -12,7 +12,7 @@ This is Python port of the original [Sastrawi](https://github.com/sastrawi/sastr
 Cara Install
 -------------
 
-Imbuhan dapat di-*install* menggunakan [pip](https://docs.python.org/3.6/installing/index.html), dengan menjalankan arahan  berikut di terminal/command prompt : `pip install PySastrawi`
+Imbuhan dapat di-*install* menggunakan [pip](https://docs.python.org/3.6/installing/index.html), dengan menjalankan arahan  berikut di terminal/command prompt : `pip install PyImbuhan`
 
 Penggunaan
 -----------
