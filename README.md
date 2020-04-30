@@ -1,7 +1,7 @@
-Sastrawi Python
+Imbuhan Python
 ===============
 
-Sastrawi Python is a simple python library which allows you to reduce inflected words in Indonesian Language (Bahasa Indonesia) to their base form ([stem](http://en.wikipedia.org/wiki/Stemming)).
+Imbuhan Python is a simple python library which allows you to reduce inflected words in Malay Language (Bahasa Melayu) to their base form ([stem](http://en.wikipedia.org/wiki/Stemming)).
 This is Python port of the original [Sastrawi](https://github.com/sastrawi/sastrawi) project written in PHP (credits goes to the original author and contributors of Sastrawi PHP).
 
 
@@ -12,7 +12,7 @@ This is Python port of the original [Sastrawi](https://github.com/sastrawi/sastr
 Cara Install
 -------------
 
-Sastrawi dapat di-*install* menggunakan [pip](https://docs.python.org/3.6/installing/index.html), dengan menjalankan perintah berikut di terminal/command prompt : `pip install PySastrawi`
+Imbuhan dapat di-*install* menggunakan [pip](https://docs.python.org/3.6/installing/index.html), dengan menjalankan arahan  berikut di terminal/command prompt : `pip install PySastrawi`
 
 Penggunaan
 -----------
@@ -21,14 +21,14 @@ Jalankan baris-baris kode berikut di *Python interactive terminal* :
 
 ```python
 # import StemmerFactory class
-from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
+from Imbuhan.Stemmer.StemmerFactory import StemmerFactory
 
 # create stemmer
 factory = StemmerFactory()
 stemmer = factory.create_stemmer()
 
 # stemming process
-sentence = 'Perekonomian Indonesia sedang dalam pertumbuhan yang membanggakan'
+sentence = 'Malaysia sedang menguju kearah negara membangunan dengan pertumbuhan yang membanggakan'
 output   = stemmer.stem(sentence)
 
 print(output)
